@@ -10,6 +10,7 @@ const changeHeight = () => {
     inputHeight.value === '' ?
         circle.style.height = 100 + 'px' :
         circle.style.height = inputHeight.value + 'px';
+        circle.style.width = circle.style.height;
    };
 
 document.addEventListener('input', e => {
